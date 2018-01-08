@@ -15,3 +15,25 @@ Versions:
   Phalcon Version: 3.3.0
   AdminLTE Version: 2.3.6
 ```
+```sh
+Yapılacak proje: PhalconPHP kullanarak oturum açan kullanıcıya parola güncelleme işlemi yaptırma.
+
+ 
+
+Beklenen özellikler:
+
+Eposta ve şifre ile giriş yapılabilen bir oturum açma ekranı hazırlanır.
+Kullanıcı, bilgileri ile bu ekranı kullanarak giriş yapar. Bilgileri doğru ise oturum açılır, yanlış ise hata mesajı verilir.
+Oturum açmış kullanıcı karşısında sadece şifresini güncelleme ekranını görür.
+Şifresini güncellemek isteyen kullanıcı, mevcut şifresini ve yeni şifresini girerek güncellemeyi yapar.
+Şifreyi güncellerken, yeni gireceği parolayı bir policy e göre belirlemek zorunda kalır. Eğer bu policy e uymuyorsa hata mesajı verilir.
+ 
+
+Kullanılması beklenen işler:
+
+RegexP veya Phalcon Validation kullanımı.
+Solid yaklaşım ile yazım.
+OOP programlama mantığı ile yazım.
+Template engine kullanımı (Örneğin: Volt veya Twig…)
+Kod okunabilirliği
+```
