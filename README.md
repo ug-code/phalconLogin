@@ -23,10 +23,12 @@ Yapılacak proje: PhalconPHP kullanarak oturum açan kullanıcıya parola günce
 Beklenen özellikler:
 
 Eposta ve şifre ile giriş yapılabilen bir oturum açma ekranı hazırlanır.
-Kullanıcı, bilgileri ile bu ekranı kullanarak giriş yapar. Bilgileri doğru ise oturum açılır, yanlış ise hata mesajı verilir.
+Kullanıcı, bilgileri ile bu ekranı kullanarak giriş yapar. 
+Bilgileri doğru ise oturum açılır, yanlış ise hata mesajı verilir.
 Oturum açmış kullanıcı karşısında sadece şifresini güncelleme ekranını görür.
 Şifresini güncellemek isteyen kullanıcı, mevcut şifresini ve yeni şifresini girerek güncellemeyi yapar.
-Şifreyi güncellerken, yeni gireceği parolayı bir policy e göre belirlemek zorunda kalır. Eğer bu policy e uymuyorsa hata mesajı verilir.
+Şifreyi güncellerken, yeni gireceği parolayı bir policy e göre belirlemek zorunda kalır. 
+Eğer bu policy e uymuyorsa hata mesajı verilir.
  
 
 Kullanılması beklenen işler:
