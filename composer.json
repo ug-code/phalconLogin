@@ -1,0 +1,12 @@
+{
+    "name": "uur/phalcon",
+   "require": {
+        "php": ">=5.6",
+        "ext-phalcon": "~3.0",
+        "swiftmailer/swiftmailer": "^5.4",
+        "aws/aws-sdk-php": "~3.0"
+    },
+    "require-dev": {
+        "phalcon/dd": "~1.1.0"
+    }
+}
