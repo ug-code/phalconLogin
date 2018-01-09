@@ -13,6 +13,7 @@ Virtual host name => phalcon.local
  validasyonlar hem phalcone form klasöründe yapılmış olup hemde jquery validasyon yapılmaktadır.
  post methodlarında csrf kullanıldı.
  model ve controlcu oluşturmak için  Phalcon DevTools'dan yararlanıldı.
+ Template engine için volt seçildi.
 ```
 ```sh
 
