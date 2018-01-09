@@ -1,6 +1,20 @@
 # phalconLogin
 
-Project Live = > https://phalcon-login.herokuapp.com/auth
+Project Live      => https://phalcon-login.herokuapp.com/auth
+
+sql file          => /schemas/phalcon.sql
+
+Virtual host name => phalcon.local 
+
+```sh
+- Yapılanlar
+ Register ve login işlemi yapıldı.
+ password için mail validasyonu uygulandı password min 8 karakter zorunluluğu koyuldu.
+ validasyonlar hem phalcone form klasöründe yapılmış olup hemde jquery validasyon yapılmaktadır.
+ post methodlarında csrf kullanıldı.
+ model ve controlcu oluşturmak için  Phalcon DevTools'dan yararlanıldı.
+```
+```sh
 
 Phalcon DevTools (3.2.12)
 ```sh
